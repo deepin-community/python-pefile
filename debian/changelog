@@ -1,5 +1,171 @@
-template-repository (1.0-1) unstable; urgency=medium
+python-pefile (2023.2.7-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream version 2023.2.7
+  * Update debian/watch
+  * Add gbp.conf
+  * Modernize package: Standards-Version, DH compat level, leaner d/rules
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Hilko Bengen <bengen@debian.org>  Thu, 09 Feb 2023 15:12:49 +0100
+
+python-pefile (2022.5.30-1) unstable; urgency=medium
+
+  * New upstream version 2022.5.30
+
+ -- Hilko Bengen <bengen@debian.org>  Mon, 30 May 2022 19:22:21 +0200
+
+python-pefile (2021.9.3-1) unstable; urgency=medium
+
+  * New upstream version 2021.9.3
+
+ -- Hilko Bengen <bengen@debian.org>  Fri, 03 Sep 2021 23:32:46 +0200
+
+python-pefile (2021.5.24-1) unstable; urgency=medium
+
+  * New upstream version 2021.5.24
+
+ -- Hilko Bengen <bengen@debian.org>  Tue, 25 May 2021 10:19:57 +0200
+
+python-pefile (2021.5.13-1) unstable; urgency=medium
+
+  * New upstream version 2021.5.13
+
+ -- Hilko Bengen <bengen@debian.org>  Fri, 14 May 2021 16:54:33 +0200
+
+python-pefile (2019.4.18-1.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Drop python2 support; Closes: #938016
+
+ -- Sandro Tosi <morph@debian.org>  Sun, 22 Dec 2019 22:40:14 -0500
+
+python-pefile (2019.4.18-1) unstable; urgency=medium
+
+  * New upstream version 2019.4.18
+  * Bump Debhelper compat level
+  * Replace dh_install --fail-missing
+
+ -- Hilko Bengen <bengen@debian.org>  Sat, 20 Apr 2019 12:03:33 +0200
+
+python-pefile (2019.4.14-1) unstable; urgency=medium
+
+  [ Hilko Bengen ]
+  * New upstream version 2019.4.14
+
+  [ Ondřej Nový ]
+  * d/copyright: Use https protocol in Format field
+
+ -- Hilko Bengen <bengen@debian.org>  Mon, 15 Apr 2019 11:40:03 +0200
+
+python-pefile (2018.8.8-1) unstable; urgency=medium
+
+  * New upstream version 2018.8.8
+  * Bump Standards-Version
+
+ -- Hilko Bengen <bengen@debian.org>  Wed, 08 Aug 2018 22:28:45 +0200
+
+python-pefile (2017.11.5-2) unstable; urgency=medium
+
+  * Add missing python3-setuptools build-dependency (Closes: #896777)
+  * Bump Standards-Version
+  * Update Vcs-* to salsa.debian.org
+
+ -- Hilko Bengen <bengen@debian.org>  Tue, 24 Apr 2018 17:39:47 +0200
+
+python-pefile (2017.11.5-1) unstable; urgency=medium
+
+  * New upstream version 2017.11.5
+  * Modernize package: Set Priority, bump Standards-Version, update VCS
+    URLs
+
+ -- Hilko Bengen <bengen@debian.org>  Mon, 06 Nov 2017 23:34:23 +0100
+
+python-pefile (2017.9.3-1) unstable; urgency=medium
+
+  * New upstream version 2017.9.3
+
+ -- Hilko Bengen <bengen@debian.org>  Mon, 04 Sep 2017 12:02:38 +0200
+
+python-pefile (2017.8.1-1) unstable; urgency=medium
+
+  * New upstream version 2017.8.1
+  * Modernize package (Standards-Version, Debhelper compat level)
+
+ -- Hilko Bengen <bengen@debian.org>  Wed, 02 Aug 2017 09:18:56 +0200
+
+python-pefile (2017.5.26-1) unstable; urgency=medium
+
+  * New upstream version 2017.5.26
+  * Drop patches
+  * Update debian/copyright
+
+ -- Hilko Bengen <bengen@debian.org>  Sat, 27 May 2017 17:33:48 +0200
+
+python-pefile (2016.3.28-4) unstable; urgency=medium
+
+  * Reference upstream commit ids in patches, as requested by Christoph Biedl
+
+ -- Hilko Bengen <bengen@debian.org>  Tue, 25 Oct 2016 23:13:45 +0200
+
+python-pefile (2016.3.28-3) unstable; urgency=medium
+
+  * Add patch to fix regression
+
+ -- Hilko Bengen <bengen@debian.org>  Tue, 28 Jun 2016 08:23:34 +0200
+
+python-pefile (2016.3.28-2) unstable; urgency=medium
+
+  * Add fixes from upstream git repository, switch source format
+  * Bump Standards-Version
+
+ -- Hilko Bengen <bengen@debian.org>  Thu, 23 Jun 2016 21:32:00 +0200
+
+python-pefile (2016.3.28-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Hilko Bengen <bengen@debian.org>  Tue, 29 Mar 2016 18:05:54 +0200
+
+python-pefile (2016.3.4-2) unstable; urgency=medium
+
+  * Add python-future dependency
+
+ -- Hilko Bengen <bengen@debian.org>  Fri, 25 Mar 2016 21:23:47 +0100
+
+python-pefile (2016.3.4-1) unstable; urgency=medium
+
+  * Imported Upstream version 2016.3.4
+  * Change URLs from code.google.com to github, bump Standards-Version
+  * Add python3-pefile module since upstream claims that pefile now runs
+    under Python 2.7 and Python 3
+
+ -- Hilko Bengen <bengen@debian.org>  Sun, 20 Mar 2016 12:15:25 +0100
+
+python-pefile (1.2.10.139-2) unstable; urgency=medium
+
+  * Fixed watch file
+
+ -- Hilko Bengen <bengen@debian.org>  Mon, 03 Aug 2015 20:11:38 +0200
+
+python-pefile (1.2.10.139-1) unstable; urgency=medium
+
+  * New upstream version (Closes: #737618)
+  * Adopted package (Closes: #737647)
+  * Package updates: Use modern Debhelper, bumped Standards-Version,
+    changed copyright file to machine-readable format
+  * Added Homepage and Vcs-* fields to debian/control
+
+ -- Hilko Bengen <bengen@debian.org>  Sat, 28 Feb 2015 19:14:19 +0100
+
+python-pefile (1.2.9.1-1.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Convert to dh_python2 (Closes: #617017).
+
+ -- Andrea Colangelo <warp10@ubuntu.com>  Wed, 26 Jun 2013 12:30:23 +0200
+
+python-pefile (1.2.9.1-1) unstable; urgency=low
+
+  * Initial release; closes: #475493.
+
+ -- Robert S. Edmonds <edmonds@debian.org>  Thu, 10 Apr 2008 16:59:47 -0400
+
