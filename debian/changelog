@@ -1,3 +1,37 @@
+python-pefile (2024.8.26-2.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Add missing B-D python3-setuptools (Closes: #1100278)
+
+ -- Bastian Germann <bage@debian.org>  Fri, 14 Mar 2025 08:53:15 +0100
+
+python-pefile (2024.8.26-2) unstable; urgency=medium
+
+  [ Alexandre Detiste ]
+  * README is gone
+
+ -- Hilko Bengen <bengen@debian.org>  Sat, 28 Sep 2024 17:36:17 +0200
+
+python-pefile (2024.8.26-1) unstable; urgency=medium
+
+  * New upstream version 2024.8.26
+  * Drop patch that has been picked up by upstream
+
+ -- Hilko Bengen <bengen@debian.org>  Tue, 27 Aug 2024 22:15:22 +0200
+
+python-pefile (2023.2.7-3) unstable; urgency=medium
+
+  * Patch regex syntax string for parsing peid (Closes: #1058741)
+
+ -- Hilko Bengen <bengen@debian.org>  Fri, 15 Dec 2023 17:16:08 +0100
+
+python-pefile (2023.2.7-2) unstable; urgency=medium
+
+  * Remove obsolete dependencies: future (Closes: #1058647), setuptools
+  * Fix some lintian --pedantic warnings
+
+ -- Hilko Bengen <bengen@debian.org>  Thu, 14 Dec 2023 18:50:30 +0100
+
 python-pefile (2023.2.7-1) unstable; urgency=medium
 
   * New upstream version 2023.2.7
@@ -168,4 +202,3 @@ python-pefile (1.2.9.1-1) unstable; urgency=low
   * Initial release; closes: #475493.
 
  -- Robert S. Edmonds <edmonds@debian.org>  Thu, 10 Apr 2008 16:59:47 -0400
-

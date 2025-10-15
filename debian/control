@@ -3,17 +3,16 @@ Section: python
 Priority: optional
 Maintainer: Hilko Bengen <bengen@debian.org>
 Build-Depends: debhelper-compat (= 13), dh-python,
- python3,
- python3-future,
- python3-setuptools,
+ python3, python3-setuptools,
 Standards-Version: 4.6.1
+Rules-Requires-Root: no
 Homepage: https://github.com/erocarrera/pefile/
 Vcs-Git: https://salsa.debian.org/debian/python-pefile.git
 Vcs-Browser: https://salsa.debian.org/debian/python-pefile
 
 Package: python3-pefile
 Architecture: all
-Depends: ${python3:Depends}, ${misc:Depends}, python3-future,
+Depends: ${python3:Depends}, ${misc:Depends}
 Description: Portable Executable (PE) parsing module for Python
  pefile is a Python module to read and work with Portable Executable (PE)
  files. Most of the information in the PE header is accessible, as well as all
