@@ -4,14 +4,9 @@ import ast
 import os
 import re
 import sys
-
-
-try:
-    from setuptools import setup, Command
-except ImportError as excp:
-    from distutils.core import setup, Command
-
 from unittest import TestLoader, TextTestRunner
+
+from setuptools import Command, setup
 
 
 os.environ["COPY_EXTENDED_ATTRIBUTES_DISABLE"] = "true"
@@ -65,7 +60,7 @@ setup(
     author=_read_attr("__author__"),
     author_email=_read_attr("__contact__"),
     url="https://github.com/erocarrera/pefile",
-    download_url="https://github.com/erocarrera/pefile/releases/download/v2023.2.7/pefile-2023.2.7.tar.gz",
+    download_url="https://github.com/erocarrera/pefile/releases/download/v2024.8.26/pefile-2024.8.26.tar.gz",
     keywords=["pe", "exe", "dll", "pefile", "pecoff"],
     classifiers=[
         "Development Status :: 5 - Production/Stable",
